@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+body {font-size: 1.4rem;}
+.inner {max-width: 100%}
+h1 {padding-left: 20px;}
+
+/* header */
+header {position: relative;}
+header .logo {float: right; font-size: 2rem; margin-top: 0; color: #fff;}
+header .gnb {display: none; position: fixed; top: 0; left: 0; margin: 0; width: 100%; height: 430px; padding: 25px 40px; box-sizing: border-box; background: rgba(0,0,0,0.8);}
+header .gnb li {display: block; width: 100%; height: 50px; color: #fff;}
+header .top_gnb {display: none;}
+header .btn_menu {display: block; position: absolute; top: 10%; left: 10px; font-size: 1.6rem; color: #fff;} 
+#mainImage {display: block; height: 450px; margin-top: -50px ; background-position: right center;}
+
+#map {margin-bottom: 40px;}
+
+/* hotel */
+.hotel {padding: 60px 0 60px;}
+.hotel h1 {margin-bottom: 25px;}
+.hotel li {float: none; width: 100%; margin-left: 0; margin-bottom: 0;}
+.hotel ul li {margin-bottom: 100px;}
+.hotel .btn_book {top: 60%; left: 45%;}
+.hotel .hotel1 .text1 {width: 70vw; top: 40%; letter-spacing: -2px;}
+.hotel .hotel2 .text2 {width: 70vw; top: 40%;}
+.hotel .hotel3 .text3 {width: 70vw; top: 40%;}
+.hotel .btn_more {position: absolute; top: 84%; text-align: center; transform: translateX(-50%);}
+
+/* laimg */
+#laimg {height: 400px; margin-bottom: 50px; margin-top: -200px;}
+#laimg .text {top: 20%; font-size: 2.4rem; letter-spacing: -3px; font-weight: normal;}
+#laimg .btn_more {padding: 20px;}
+
+/* #tour */
+#tour {margin-bottom: 40px;}
+#tour .title {font-size: 2rem; text-align: center; padding-left: 0; padding-top: 20px;}
+#tour .btn_more {margin: 0 auto;}
+#tour span {display: none;}
+#tour .tour1 figure span:nth-child(2) {display: none;}
+#tour .tour2 figure span:nth-child(2) {display: none;}
+#tour .tour3 figure span:nth-child(2) {display: none;}
+#tour .tour1 {float: none; width: 100%; margin-right: 0; margin-bottom: 40px;}
+#tour .tour2 {float: none; width: 100%; margin-bottom: 40px;}
+#tour .tour2 img {margin-top: 40px;}
+#tour .tour3 figure {margin-top: 40px;}
+#tour .tour3 img {width: 100%; height: 400px; margin-top: 0;}
+#tour .tour1 figure .textgroup1 {height: 200px;}
+#tour .tour2 figure .textgroup2 {height: 150px;}
+#tour .tour3 figure .textgroup3 {height: 150px;}
+
+/* #tip */
+#tip .text {display: none;}
+#tip .tip_desc i {display: none;}
+#tip .tip_left span {float: left;}
+#tip .tip_left img {width: 500px;}
+#tip .tip_left .tip_desc {float: left; top: 20%; left: 20%; color: #fff;}
+#tip .tip_left .btn_more {display: block; position: absolute; top: 25%; left: 20%; width: 100px; padding: 10px; text-align: center; background: #fff; color: #333;}
+#tip .tip_left .btn_more:hover {background: #006000; color: #fff;}
+
+#tip .tip_right {width: 500px;}
+#tip .tip_right img {padding-top: 100px;}
+#tip .tip_right .tip_desc {float: left; bottom: 25%; left: 5%; color: #fff;}
+#tip .tip_right .btn_more {display: block; position: absolute; bottom: 20%; left: 5%; width: 100px; padding: 10px; text-align: center; background: #fff; color: #333;}
+#tip .tip_right .btn_more:hover {background: #006000; color: #fff;}
+
+/* footer */
+footer {text-align: center;}
+footer .f_logo {font-size: 1.4rem; margin-top: 10px;}
+footer .f_left a {margin-right: 20px; margin-left: 20px;}
+footer .f_right {display: none;}

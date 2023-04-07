@@ -1,0 +1,65 @@
+@charset 'utf-8';
+@import url(fonts.css);
+@import url(all.min.css);
+
+html {font-size: 0.625rem;}
+body {font-size: 1.4rem; font-family: 'Noto Sans KR', sans-serif; color: #333;}
+
+.inner {position: relative; max-width: 100%;}
+
+/* header */
+header {position: absolute; top: 0; left: 0; height: 80px; z-index: 5;}
+header .inner {padding: 0 3%; box-sizing: border-box;}
+header .logo {margin-top: 15px; font-size: 2.4rem; font-weight: 500;}
+header .logo:hover {color: #fff;}
+header .sns {position: left; top: 10%; left: 70%;}
+header .sns a {display: inline-block; width: 20px; height: 20px; font-size: 2.2rem; margin: 0 6px;}
+header .sns a > img {max-width: 100%;}
+header .gnb {margin-top: 70px; text-align: center;}
+header .gnb li {float: left; width: calc(100%/3 - 20px); margin: 0 10px;}
+header .gnb li > a {display: block; line-height: 36px; text-align: center;}
+header .gnb li:hover {color: #fff;}
+
+section + section {padding: 35px 0;}
+section .text {margin-bottom: 20px;}
+/* mainImage */
+.mainImage {position: relative; height: 80vh; background: url(../img/bg.jpg) no-repeat center bottom/cover;}
+.mainImage .mainTitle {position: absolute; top: 65%; left: 50%; width: 100%; transform: translate(-50%, -50%); z-index: 5; text-align: center;}
+.mainImage .desc {float: left; margin: 100px 2px;}
+.mainImage .m_text {font-size: 2.4rem; margin-bottom: 15px; font-weight: 500;} 
+.mainImage strong {font-size: 3.4rem; color:#29a13f; font-weight: 700; margin-bottom: 25px;} 
+.mainImage .s_text {font-size: 2.4rem; font-weight: 500; color: #111;}
+
+/* #main */
+#main h1 {position: relative; font-size: 2.6rem; text-align: center; font-weight: 500; margin-bottom: 20px; color: #111;}
+#main h1:after {content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 300px; height: 2px; background: #2f6ba3;}
+#main .product {text-align: center;}
+#main .product ul li {float: left; width: calc(100%/2); margin: 0 0 25px; overflow: hidden; box-sizing: border-box;}
+#main .product li figure {margin-bottom: 20px;}
+#main .product li figure img {display: block; width: 60%; margin: auto;}
+#main .product ul li a:hover {color: #2f6ba3;}
+#main .product .textgroup {text-align: center; padding: 0 20px; box-sizing: border-box;}
+#main .product .text {display: none;}
+
+/* contents */
+#contents {max-width: 100%; margin: 0 auto; padding-top: 0;}
+#contents .sub_text {font-size: 2.3rem; color: #fff;}
+#contents .sub_text strong {color: #fdff3b;}
+#contents .cont01 {float: none; width: 100%; height: 200px;}
+#contents .cont01 img {float: left; width: 50%; height: 200px; filter: grayscale(50%);}
+#contents .cont01 .sub_text {width: 50%; height: 200px; left: 50%; top: 0; padding: 20px; box-sizing: border-box; background: #1a1f73;}
+#contents .cont02 {float: none; width: 100%; margin-bottom: 220px;}
+#contents .cont02 img {float: right; width: 50%; height: 200px; filter: grayscale(50%);}
+#contents .cont02 .sub_text {float: left; width: 50%; height: 200px; background: #1a1f73; margin-left: -25px; padding-top: 40px; padding-left: 50px; box-sizing: border-box;}
+#contents .cont03 {float: left; width: 100%;} 
+#contents .cont03 img {float: left; width: 50%; height: 200px; filter: grayscale(50%); margin-top: -20px;}
+#contents .cont03 .sub_text {float: none; width: 100%; height: 200px; background: #1a1f73; box-sizing: border-box; margin-top: -30px; margin-left: -50px; padding-top: 40px; padding-left: 50px; box-sizing: border-box;}
+
+
+/* footer */
+footer {position: relative; background: #ddd;}
+footer h1 {float: left; font-size: 2.3rem;}
+footer .flexbox {display: none;}
+footer .text {display: none;}
+footer .sns {float: left; width: 50%; font-size: 2rem; margin-bottom: 20px;}
+

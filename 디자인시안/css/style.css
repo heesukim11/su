@@ -1,0 +1,63 @@
+@charset 'utf-8';
+@import url(fonts.css);
+@import url(all.min.css);
+
+html {font-size: 0.625rem;}
+body {font-size: 1.6rem; font-family: 'Noto Sans KR', sans-serif; color: #333;}
+
+.inner {position: relative; max-width: 1600px; margin: 0 auto; overflow: hidden;}
+
+/* header */
+header {position: absolute; width: 100%; height: 80%; z-index: 5;}
+header .logo {float: left;}
+header .logo:hover {color: #fff;}
+header .gnb {margin: 20px auto; text-align: center;}
+
+header .gnb li {float: left; width: calc(100%/6 - 40px);}
+header .gnb li:hover {color: #fff;}
+header .sns {position: absolute; top: 20%; left: 90%;}
+
+section + section {padding: 100px 0;}
+section .text {margin-bottom: 30px;}
+/* mainImage */
+.mainImage {position: relative; height: 80vh; background: url(../img/bg.jpg) no-repeat center/cover;}
+.mainImage .mainTitle {position: absolute; top: 20%; left: 5%; z-index: 5; text-align: center;}
+.mainImage .desc {float: left; margin: 100px 2px;}
+.mainImage .m_text {font-size: 2.4rem; margin-bottom: 15px; font-weight: 500;} 
+.mainImage strong {font-size: 4.6rem; color:#29a13f; font-weight: 700; margin-bottom: 25px;} 
+.mainImage .s_text {font-size: 3.4rem; font-weight: 700; color: #111;}
+
+/* #main */
+
+#main h1 {position: relative; font-size: 3.2rem; text-align: center; font-weight: 500; margin-bottom: 30px; color: #111;}
+#main h1:after {content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 300px; height: 2px; background: #2f6ba3;}
+#main .product .text {margin: 0 100px; margin-bottom: 50px;}
+#main .product ul li {float: left; width: calc(100%/4 - 40px); overflow: hidden; box-sizing: border-box; margin: 0 20px;}
+#main .product li figure {margin-bottom: 20px;}
+#main .product li figure > img {display: block; width: 80%;}
+#main .product ul li a:hover {color: #2f6ba3;}
+#main .product .textgroup {letter-spacing: -1px; text-align: center;} 
+
+
+/* contents */
+#contents div {position: relative; max-width: 1200px;}
+#contents .sub_text {font-size: 3.2rem; color: #fff;}
+#contents .sub_text strong {color: #fdff3b;}
+#contents .cont01 {float: left;}
+#contents .cont01 img {width: 600px; height: 600px; filter: grayscale(50%);}
+#contents .cont01 .sub_text {position: absolute; top: 20%; left: 60%;}
+#contents .cont02 {float: right;}
+#contents .cont02 img {width: 500px; height: 300px;filter: grayscale(50%);}
+#contents .cont02 .sub_text {position: absolute; top: 10%; left: 5%;}
+#contents .cont03 {float: right;}
+#contents .cont03 img {width: 500px; height: 300px; filter: grayscale(50%);}
+#contents .cont03 .sub_text {position: absolute; top: 5%; left: 60%;}
+
+/* footer */
+footer {text-align: center;}
+footer h1 {margin-bottom: 20px;}
+footer .text {margin-bottom: 20px;}
+footer .flexbox {margin-bottom: 10px;}
+footer .flexbox i {margin-left: 10px;}
+footer .sns > a {font-size: 3.2rem; padding-right: 20px;}
+

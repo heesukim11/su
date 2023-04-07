@@ -1,0 +1,49 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {max-width: 1920px; font-size: 2rem; margin: 0 auto; background: #111; color: #fff; font-family: 'SDSamliphopangche_Outline'; text-align: center;}
+main {margin: 0 auto; line-height: 3em;}
+.cont1, .cont2, .cont3, .cont4, .cont5, .cont6 {border-top: 0.2em solid #fff; padding: 1em;} 
+
+/* header */
+header {height: 30em; position: relative;}
+.topHeader .day {position: absolute; background: linear-gradient(#ffffff, #9900ff); width: 4em; height: 4em; border-radius: 50%; line-height: 4em; margin: 3em;}
+.topHeader .day:after {position: absolute; top: 2em; left: 10em; width: 1200px; height: 3px; background: #9900ff; content: '';}
+
+.text {font-size: 5rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.topHeader .tit {position: absolute; background: linear-gradient(#0144ff, #fff); width: 4em; height: 4em; border-radius: 50%; line-height: 4em; margin: 3em; bottom: 0; right: 0;}
+.topHeader .tit:after {position: absolute; bottom: 2em; right: 10em; width: 1200px; height: 3px; background: #0144ff; content: '';}
+
+
+
+.btnMore {background: #fff; color: #111; width: 12em; height: 2.4em; line-height: 2.4em; border-radius: 6em; margin: 2em auto;}
+.btnMore:hover {background: #b993ff; color: #fff;}
+
+.cont2 img {width: 30%;}
+.cont3 img {width: 40%;}
+.cont4 img {width: 30%;}
+.cont5 img {width: 30%;}
+.cont6 img {width: 30%;}
+
+/* slide*/
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 600px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }

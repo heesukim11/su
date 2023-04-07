@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import url(fonts.css);
+html {font-size: 0.625rem;}
+body {font-size: 1.6rem; font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+.inner {max-width: 1200px; margin: 0 auto;}
+
+h1 {font-weight: bold; font-size: 2rem; margin: 2em 0;}
+p {line-height: 2em;}
+
+#mainHeader {height: 9em; background-color: #0368d9;}
+#mainHeader .topInner {position: relative; height: 5em; padding-top: 0.4em; box-sizing: border-box;}
+#mainHeader .topInner li {float: left; margin-left: 5em; font-size: 1.4rem; color: #fff; font-weight: 500; }
+#mainHeader .topInner li > a {display: block; width: 100%; line-height: 5em;}
+.topInner .logo {float: left; width: 10%;}
+.topInner .logo img {max-width: 100%;}
+
+.topInner .utilNav {margin-top: 0.2em;}
+.topInner .utilNav span {border-bottom: 0.2em solid #fff;}
+
+.gnb {height: 4em; background:#0d54a5 ;}
+.gnb ul li {float: left; color: #fff; font-size: 0.8rem; font-weight: bold; margin: 0 4em;}
+.gnb ul > li > a {display: block; font-size: 1.4rem; line-height: 4.57em; font-weight: 400;}
+.gnb .right {text-align: center; line-height: 4.57em;}
+button {width: 14em; height: 2em; border: none; color: #0368d9; background-color: #fff; font-weight: bold; font-size: 1em; cursor: pointer;}
+.gnb img {width: 1.4em;}
+
+.swiper {width: 100%; height: 50em;}
+.swiper-slide {background: #fff; display: flex; justify-content: center; align-items: center;}
+.swiper-slide .pic {display: block; width: 100%; height: 100%; width: 100%; background: no-repeat center/cover;}
+.swiper-slide .pic.main_img01 {background-image: url(../images/bg1.avif);}
+.swiper-slide .pic.main_img02 {background-image: url(../images/bg2.avif);}
+.swiper-slide .pic.main_img03 {background-image: url(../images/bg3.avif);}
+.swiper-slide .pic.main_img04 {background-image: url(../images/bg4.avif);}
+.swiper-slide .pic.main_img05 {background-image: url(../images/bg5.avif);}
+.swiper-slide .pic.main_img06 {background-image: url(../images/bg6.avif);}
+
+
+.swiper-slide p {display: block; float: left; position: absolute; top: 50%; left: 10%; color: #fff; font-size: 2rem;}
+.swiper-slide span {font-size: 3rem;}
+
+.cont1, .cont2, .cont3, .cont4, .cont5, .cont6, .cont7 {padding: 2em; border-bottom: 0.1em solid #ddd;}
+
+.cont1 img {width: 100%; height: 12em; border-radius: 1em 1em 0 0;}
+.cont1 li {float: left; width: calc(100%/4 - 2em); margin-right: 2em; box-shadow: 0 0 10px rgba(0,0,0,0.3); border-radius: 14px; overflow: hidden;}
+.cont1 li.spotBox {height: 380px; background: #fff;}
+.cont1 li.spotBox .textBox {padding: 20px; box-sizing: border-box;}
+.cont1 li.spotBox .textBox .title {margin-bottom: 5px; font-size: 16px; font-weight: 500; color: #0368d9;}
+.cont1 p.desc {height: 5em; font-size: 15px; letter-spacing: -1px;}
+.cont1 i {float: right; background-color: #0368d9; color: #fff; font-size: 2em; border-radius: 50%;}
+
+.cont2 img {width: 100%;}
+.cont2 span {color: #0368d9;}
+.cont2 p {line-height: 3em;}
+
+.cont3 img {width: 90%}
+.cont3 li {float: left; width: calc(100%/2);}
+.cont3 span {font-size: 2rem; line-height: 5em; font-weight: bold;}
+.cont3 .btnMore {background-color: #0368d9; color: #fff; display: inline-block; font-weight: bold; padding: 1em; margin: 2em auto;}
+
+.cont4 ul li {float: left; width: calc(100%/4 - 1em); margin-right: 1em; margin-bottom: 2em; height: 10em;}
+.cont4 ul li:nth-child(1) {background: url(../images/fun1.jpg) no-repeat center/cover;}
+.cont4 ul li:nth-child(2) {background: url(../images/fun2.jpg) no-repeat center/cover;}
+.cont4 ul li:nth-child(3) {background: url(../images/fun3.jpg) no-repeat center/cover;}
+.cont4 ul li:nth-child(4) {background: url(../images/fun4.jpg) no-repeat center/cover;}
+.cont4 ul li p {color: #fff; text-align: center; font-weight: bold; font-size: 2.4rem; margin-top: 2em;}
+
+.cont5 img {float: left; margin-right: 5em;}
+.cont5 .btnMore {float: right; background-color: #0368d9; color: #fff; padding: 1em; font-weight: bold;}
+
+.cont6 img {margin-right: 2em;}
+.cont6 .contact {float: right; font-weight: bold;}
+.cont6 .contact ul li {float: left; color: #0368d9; margin: 1em;}
+
+.cont7 {font-size: 0.6rem;}
+.cont7 .right {float: right; color: #0368d9; font-weight: bold;}
+
+.btnMore:hover {color: #fff; background: #111;}
+

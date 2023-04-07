@@ -1,0 +1,108 @@
+@charset 'utf-8';
+@import url(fonts.css);
+@import url(all.min.css);
+
+html {font-size: 1rem;}
+body {font-size: 1.6rem; color: #333; font-family: 'Nanum Pen Script', cursive;}
+
+.inner {position: relative; max-width: 1600px; margin: 0 auto; overflow: hidden;}
+
+/* header */
+header {position: absolute; width: 100%; height: 80%; z-index: 5;}
+header .logo {float: left; margin-top: 10px;}
+header .logo:hover {color: #fff;}
+header .gnb {margin: 20px auto; text-align: center;}
+header .gnb li {float: left; width: calc(100%/8 - 50px);}
+header .gnb li:hover {color: #fff;}
+header .top_gnb {float: right;}
+header .top_gnb img {width: 20px;}
+header .top_gnb a {padding-right: 50px;}
+header .btn_menu {display: none;}
+
+/* #mainImage */
+#mainImage {display: flex; justify-content: center; align-items: center; height: 90vh; background: url(../images/main_bg.jpg) no-repeat center/cover; margin-bottom: 50px;}
+
+#map {margin-bottom: 100px; max-width: 100%;}
+#map h1 {margin-bottom: 50px;}
+
+/* hotel */
+.hotel h1 {margin-bottom: 50px;}
+.hotel ul {margin-bottom: 200px;}
+.hotel ul li {float: left;}
+.hotel img {position: relative; width: 500px; height: 400px; filter: grayscale(90%); margin-right: 33px;}
+.hotel .hotel1 img:hover {filter: none;}
+.hotel .btn_book {position: absolute; top: 35%; left: 40%; transform: translate(-35%, -40%); border-radius: 25px; background-color: #fff; padding: 10px 30px; text-align: center;}
+.hotel .btn_book:hover {border-color: #006600 ;background-color: #006600; color: #fff;}
+.hotel .hotel1 {position: relative;}
+.hotel .hotel1 .text1 {position: absolute; top: 10%; left: 10%; color: #fff; font-size: 2.4rem;}
+
+.hotel .hotel2 {position: relative;}
+.hotel .hotel2 .text2 {position: absolute; top: 10%; left: 25%; color: #fff; font-size: 2.4rem;}
+.hotel .hotel2 img:hover {filter: none;}
+
+.hotel .hotel3 {position: relative;}
+.hotel .hotel3 .text3 {position: absolute; top: 10%; left: 25%; color: #fff; font-size: 2.4rem;}
+.hotel .hotel3 img:hover {filter: none;}
+
+.hotel .btn_more {position: absolute; top: 80%; left: 50%; border: 1px solid #006600; color: #006600; border-radius: 25px; padding: 10px 45px;}
+.hotel .btn_more:hover {background-color: #006600; color: #fff;}
+
+/* #laimg */
+#laimg {position: relative; margin-bottom: 200px;}
+#laimg {height: 650px; background: url(../images/la_logo.jpg) no-repeat center/cover;}
+#laimg .text {position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 4.2rem; font-weight: bold;}
+#laimg .btn_more {position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; padding: 20px 60px;} 
+#laimg .btn_more:hover {background-color: #006600; color: #fff;}
+
+/* tour */
+#tour {margin-bottom: 200px;}
+#tour h1 {margin-bottom: 20px;}
+#tour .title {margin-bottom: 20px; font-size: 3rem; padding-left: 100px;}
+#tour .desc {margin-bottom: 20px; padding-left: 100px; line-height: 2;}
+#tour .btn_more {display: block; width: 100px; padding: 10px; text-align: center; background-color: #fff; color: #333; margin-left: 100px;}
+#tour .btn_more:hover {background: #006600; color: #fff;}
+#tour .tour1 {float: left; margin-right: 200px;}
+#tour .tour1 figure {position: relative; overflow: hidden;}
+#tour .tour1 img {display: block; width: 100%;}
+#tour .tour1 figure .textgroup1 {padding: 20px; position: absolute; bottom: 0; left: 0; width: 100%; height: 300px; opacity: 0; transition: all 0.8s; background: #042940; color: #fff; overflow: hidden; box-sizing: border-box;}
+#tour .tour1 figure .textgroup1 span {display: block;}
+#tour .tour1 figure:hover .textgroup1 {opacity: 1;}
+
+#tour .tour2 figure {position: relative; overflow: hidden;}
+#tour .tour2 img {display: block; width: 100%; margin-top: 220px;}
+#tour .tour2 figure .textgroup2 {padding: 10px; position: absolute; bottom: 0; left: 0; width: 100%; height: 250px; opacity: 0; transition: all 0.8s; background: #042940; color: #fff; overflow: hidden; box-sizing: border-box;}
+#tour .tour2 figure .textgroup2 span {display: block;}
+#tour .tour2 figure:hover .textgroup2 {opacity: 1;}
+
+#tour .tour3 figure {float: left; position: relative; overflow: hidden; margin-top: 150px;}
+#tour .tour3 img {display: block; width: 1600px; height: 1000px;}
+#tour .tour3 figure .textgroup3 {padding: 10px; position: absolute; top: 0; left: 0; width: 100%; height: 350px; opacity: 0; transition: all 0.8s; background: #042940; color: #fff; overflow: hidden; box-sizing: border-box;}
+#tour .tour3 figure .textgroup3 span {display: block;}
+#tour .tour3 figure:hover .textgroup3 {opacity: 1;}
+
+/* tip */
+#tip {margin-bottom: 100px;}
+#tip h1 {margin-bottom: 20px;}
+#tip span {font-size: 2.2rem; font-weight: bold;}
+#tip .text {margin-top: 20px; line-height: 3rem;}
+#tip .tip_left {float: left; width: 45%;}
+#tip .tip_left img {width: 100%;}
+#tip .tip_left .tip_desc {position: absolute; top: 5%; right: 0;}
+#tip .tip_left .btn_more {display: none;}
+
+#tip .tip_right {float: right; width: 45%;}
+#tip .tip_right img {width: 100%; padding-top: 400px;}
+#tip .tip_right .tip_desc {position: absolute; bottom: 0; left: 0;}
+#tip .tip_right .btn_more {display: none;}
+
+
+/* footer */
+footer {background: #b3b3b3; color: #fff; height: 100px;}       
+footer .f_logo {font-size: 2rem; margin-top: 10px;}
+footer .f_left {float: left;} 
+footer .f_left a {font-size: 1.2rem; margin-right: 100px;}
+footer .f_left .copy {font-size: 1.2rem;}
+footer .f_left a:hover {color: #111;}
+footer .f_right {float: right; margin-top: 50px;}
+footer .f_right .sns img {width: 15px;}
+footer .f_right .sns a {margin-left: 30px;}
